@@ -161,8 +161,8 @@ userId,type,creditBalance,config=null}:
 
     setNewTransformation(null)
 
-    startTransition(async () => {
-      await updateCredits(userId, creditFee)
+    startTransition(() => {
+      updateCredits(userId, creditFee)
     })
   }
 
